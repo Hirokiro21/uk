@@ -52,11 +52,11 @@ if DATABASE_URL:
 
 UPSTREAM_REPO = environ.get('UPSTREAM_REPO', '')
 if len(UPSTREAM_REPO) == 0:
-    UPSTREAM_REPO = 'https://github.com/NXhx/upstream_hk_mltb'
+    UPSTREAM_REPO = 'https://github.com/NXhx/uphk'
 
 UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', '')
 if len(UPSTREAM_BRANCH) == 0:
-    UPSTREAM_BRANCH = 'master'
+    UPSTREAM_BRANCH = 'heroku'
 
 if ospath.exists('.git'):
     srun(["rm", "-rf", ".git"])
