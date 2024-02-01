@@ -20,7 +20,7 @@ motor
 natsort
 pillow
 psutil
-pybase64
+pycryptodome
 pymongo
 pyrogram
 python-dotenv
