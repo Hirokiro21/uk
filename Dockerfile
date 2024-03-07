@@ -1,4 +1,3 @@
-#FROM mysterysd/wzmlx:heroku
 FROM anasty17/mltb:dev
 
 WORKDIR /usr/src/app
